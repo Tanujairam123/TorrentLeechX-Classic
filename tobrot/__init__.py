@@ -66,7 +66,7 @@ FREE_USER_MAX_FILE_SIZE = 50000000
 AUTH_CHANNEL.append(539295917)
 AUTH_CHANNEL.append(OWNER_ID)
 # chunk size that should be used with requests
-CHUNK_SIZE = int(os.environ.get("CHUNK_SIZE", "128"))
+CHUNK_SIZE = int(os.environ.get("CHUNK_SIZE",128))
 # default thumbnail to be used in the videos
 DEF_THUMB_NAIL_VID_S = os.environ.get(
     "DEF_THUMB_NAIL_VID_S", "https://via.placeholder.com/90.jpg"
