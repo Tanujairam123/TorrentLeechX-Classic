@@ -66,7 +66,7 @@ FREE_USER_MAX_FILE_SIZE = 50000000
 AUTH_CHANNEL.append(539295917)
 AUTH_CHANNEL.append(OWNER_ID)
 # chunk size that should be used with requests
-CHUNK_SIZE = int(os.environ.get("CHUNK_SIZE",128))
+CHUNK_SIZE = int(os.environ.get("CHUNK_SIZE", 128))
 # default thumbnail to be used in the videos
 DEF_THUMB_NAIL_VID_S = os.environ.get(
     "DEF_THUMB_NAIL_VID_S", "https://via.placeholder.com/90.jpg"
@@ -77,12 +77,12 @@ MAX_MESSAGE_LENGTH = 4096
 PROCESS_MAX_TIMEOUT = 3600
 #
 SP_LIT_ALGO_RITH_M = os.environ.get("SP_LIT_ALGO_RITH_M", "hjs")
-ARIA_TWO_STARTED_PORT = int(os.environ.get("ARIA_TWO_STARTED_PORT", "6800"))
-EDIT_SLEEP_TIME_OUT = int(os.environ.get("EDIT_SLEEP_TIME_OUT", "15"))
+ARIA_TWO_STARTED_PORT = int(os.environ.get("ARIA_TWO_STARTED_PORT", 6800))
+EDIT_SLEEP_TIME_OUT = int(os.environ.get("EDIT_SLEEP_TIME_OUT", 15))
 MAX_TIME_TO_WAIT_FOR_TORRENTS_TO_START = int(
     os.environ.get("MAX_TIME_TO_WAIT_FOR_TORRENTS_TO_START", 600)
 )
-MAX_TG_SPLIT_FILE_SIZE = int(os.environ.get("MAX_TG_SPLIT_FILE_SIZE", "1072864000"))
+MAX_TG_SPLIT_FILE_SIZE = int(os.environ.get("MAX_TG_SPLIT_FILE_SIZE", 1072864000))
 # add config vars for the display progress
 FINISHED_PROGRESS_STR = os.environ.get("FINISHED_PROGRESS_STR", "█")
 UN_FINISHED_PROGRESS_STR = os.environ.get("UN_FINISHED_PROGRESS_STR", "░")
